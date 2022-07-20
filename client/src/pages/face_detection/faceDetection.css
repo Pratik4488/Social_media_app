@@ -1,0 +1,11 @@
+.faceContainer{
+    display: flex;
+
+}
+canvas{
+    position: absolute;
+}
+.loadImage{
+    max-width: 600;
+    max-height: 450;
+}

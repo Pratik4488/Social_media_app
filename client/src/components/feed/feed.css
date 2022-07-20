@@ -1,0 +1,17 @@
+.feedContainer{
+    flex: 5.5;
+    padding: 15px;
+    overflow-y: scroll;
+    height: calc(100vh - 75px);
+}
+.feedContainer::-webkit-scrollbar{
+    display: block;
+    width: 5px;
+}
+.feedContainer::-webkit-scrollbar-track{
+    background: white;
+}
+.feedContainer::-webkit-scrollbar-thumb{
+    background: rgba(155, 154, 154, 0.445);
+    border-radius: 5px;
+}

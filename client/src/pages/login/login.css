@@ -1,0 +1,79 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background:no-repeat center/cover url('https://image.freepik.com/free-vector/magnet-attracting-emoticons-background_52683-28865.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginWrapper{
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+
+.loginLeft, .loginRight{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.loginLogo{
+    font-size: 66px;
+    font-weight: bolder;
+    color: #1775ee;
+    margin-bottom: 10px;
+    backdrop-filter: blur(2px);
+}
+.loginDesc{
+    font-size: 24px;
+    backdrop-filter: blur(2px);
+}
+
+.loginBox{
+    padding: 50px 20px;
+    height: 300px;
+    width: 300px;
+    -webkit-backdrop-filter: blur(25px);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.loginInput{
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-size: 10px;
+    background: white;
+    padding-left: 20px;
+    outline: none;
+    width: 80%;
+    align-self: center;
+}
+
+.loginButton{
+    outline: none;
+    border-radius: 10px ;
+    border: none;
+    background-color: #1774ee56;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    width: 50%;
+    align-self: center;
+    padding: 5px 0px;
+}
+.loginButton:disabled{
+    cursor:not-allowed;
+}
+.loginForgot{
+    text-align: center;
+    color: #1775ee;
+    cursor: pointer;
+}
